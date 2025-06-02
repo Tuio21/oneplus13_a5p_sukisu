@@ -17,13 +17,13 @@ on:
        type: boolean
       enable_feature_y:
        description: "是否启用lz4kd"
-       required: true
-       default: true
+       required: false
+       default: false
        type: boolean
       enable_feature_z:
        description: "是否添加风驰驱动"
-       required: true
-       default: true
+       required: false
+       default: false
        type: boolean
        
 
