@@ -5,7 +5,7 @@ on:
       KERNEL_SUFFIX:
         description: '内核名称修改(可改中文和emoji)'
         required: true
-        default: '-酷安FutabaWa'
+        default: '-miHoYo-GenshinImpact'
       KERNEL_TIME:
        description: "内核构建日期更改(默认为原厂)"
        required: true
@@ -17,13 +17,13 @@ on:
        type: boolean
       enable_feature_y:
        description: "是否启用lz4kd"
-       required: false
-       default: false
+       required: true
+       default: true
        type: boolean
       enable_feature_z:
        description: "是否添加风驰驱动"
-       required: false
-       default: false
+       required: true
+       default: true
        type: boolean
        
 
